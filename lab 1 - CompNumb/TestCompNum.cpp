@@ -1,4 +1,4 @@
-#include "Complex.h"
+#include "ComplexNumbers.h"
 
 #include <cassert>
 #include <iostream>
@@ -6,7 +6,7 @@
 
 int main() {
 
-	//тест для double
+	//testing double
 	Complex<double> com0(0, 0);
 	Complex<double> com1(5, 10);
 	Complex<double> com2(1, 2);
@@ -38,7 +38,7 @@ int main() {
 	auto c1 = 7.5 + 8.9i;
 	assert(c1.isEqual(Complex<double>(7.5, 8.9)));
 
-	//тест для int
+	//testing int
 
 	Complex<int> com5(0, 0);
 	Complex<int> com6(5, 10);
